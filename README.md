@@ -41,10 +41,10 @@ Modify `GravityCW.pde` to simulate earth's gravity. You should only add code to 
 
 
 ## Task 3: Orbit
-This task is meant to be used in conjunction with the `resetVertical()` method, which you can run by pressing `v`. You can toggle orbit mode on/off by pressing `o`. When Earth Gravity is on, a single orb at the center should exert a gravitational force on all the other orbs. You should attempt to get at least one of the orbs to trace a circular orbit around the center.
+This task is meant to be used in conjunction with the `resetVertical()` method, which you can run by pressing `v`. You can toggle orbit mode on/off by pressing `o`. When orbit is on, a single orb at the center should exert a gravitational force on all the other orbs. You should attempt to get at least one of the orbs to trace a circular orbit around the center.
 
 ### Question 0:
-In the real world, how do gravitational orbits occur?
+In the real world, how do gravitational orbits occur? (something to consider while pondering this question: why doesn't the )
 
 YOUR ANSWER HERE
 
