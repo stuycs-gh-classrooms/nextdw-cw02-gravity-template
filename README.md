@@ -19,7 +19,7 @@ YOUR ANSWER HERE
 
 ## Task 1: Mutual Attraction
 In `GravityCW.pde` there is an array of `Orb` objects called `Orb`. This task is meant to be used in conjunction with the `randomSetup()` method, which you can run by pressing `r`. You can toggle mutual attraction mode on/off by pressing `m` When Mutual Attraction is on, then every orb should exert a gravitational force on every other orb. In order to do this, you need to do 2 things:
-  1. Modify `setup()` in `GravityCW.pde` so that each orb in `orbs` exerts gravity on all other orbs.
+  1. Modify `draw()` in `GravityCW.pde` so that each orb in `orbs` exerts gravity on all other orbs.
   2. Modify `getGravity()` in `Orb.pde` so that an orb does not exert gravity on itself.
 
 
