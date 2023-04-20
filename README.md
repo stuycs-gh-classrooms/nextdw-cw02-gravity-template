@@ -1,4 +1,4 @@
-# ClassWork 02 For NeXT CS
+# ClassWork 03 For NeXT CS
 ### Class Period:
 ### Name0: YOUR NAME HERE
 ### Name1: TABLE_BUDDY NAME HERE
