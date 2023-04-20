@@ -28,16 +28,13 @@ class Orb {
   }//run
 
   PVector getGravity(Orb o, float G) {
-    if (o != this) {
-      float d = this.position.dist(o.position);
-      d = constrain(d, 5, 100);
-      float mag = (G * mass * o.mass) / (d * d);
-      PVector direction = PVector.sub(o.position, this.position);
-      direction.normalize();
-      direction.mult(mag);
-      return direction;
-    }
-    return new PVector(0, 0);
+    float d = this.position.dist(o.position);
+    d = constrain(d, 5, 100);
+    float mag = (G * mass * o.mass) / (d * d);
+    PVector direction = PVector.sub(o.position, this.position);
+    direction.normalize();
+    direction.mult(mag);
+    return direction;
   }//getGravity
 
   float getDensity() {
